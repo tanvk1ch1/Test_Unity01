@@ -99,5 +99,21 @@ public class TestScript : MonoBehaviour
         //         Debug.Log("下に移動");
         //         break;
         // }
+        
+        
+        // 配列
+        // int[] a = {10, 2, -2, -34};
+        // int[] b = new int[] {10, 2, -2, -34};
+        // int[] c = new int[4] {10, 2, -2, -34};
+        // // 配列の取得
+        // int x = a[0];
+        // Debug.Log(x);
+        // Debug.Log(a[1]);
+        // Debug.Log(b[2]);
+        // Debug.Log(c[3]);
+        // // 配列の変更
+        // a[1] = 7;
+        // Debug.Log(a[1]);
+
     }
 }
