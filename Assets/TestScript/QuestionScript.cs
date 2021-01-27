@@ -6,6 +6,7 @@ using UnityEngine;
 // 未経験者教育用に、問題スクリプトを作成
 public class QuestionScript : MonoBehaviour
 {
+    // 問1
     // TODO:Q1_10~1000をwhileで表示せよ
     // int count = 10;
     // void Start()
@@ -92,5 +93,118 @@ public class QuestionScript : MonoBehaviour
     //             Debug.Log("その他");
     //             break;
     //     }
+    // }
+    
+    
+    // 問2
+    // TODO:「10,20,30」の値を持つ配列を作る時のおかしなところはどこか？
+    // int[] numbers = 10;
+    // int[] numbers = 20;
+    // int[] numbers = 30;
+    // void Start()
+    // {
+    // }
+    
+    
+    // TODO:配列の値取得の方法について
+    // int[] numbers = { 10, 20, 30 };
+    // void Start()
+    // {
+    //     int x = numbers[1];
+    //     Debug.Log(x);
+    //     int y = numbers[2];
+    //     Debug.Log(y);
+    //     int z = numbers[3];
+    //     Debug.Log(z);
+    // }
+    
+    
+    // TODO:配列の値変更の方法について
+    // int[] numbers = { 10, 20, 30 };
+    // void Start()
+    // {
+    //     numbers = 1;
+    //     Debug.Log(numbers[1]);
+    // }
+    
+    
+    // TODO:配列とfor文の組み合わせについて：値をfor文ですべて表示する
+    // int[] numbers = { 10, 20, 30, 1,2,33,-33,44,556,54345,3434 };
+    // void Start()
+    // {
+    //     Debug.Log(numbers[0]);
+    //     Debug.Log(numbers[1]);
+    //     Debug.Log(numbers[2]);
+    //     Debug.Log(numbers[3]);
+    //     // ...と続く場合にどうするか？
+    // }
+    
+    
+    // TODO:配列とfor文の組み合わせ2：配列が変わってもfor文を変えない方法
+    // int[] numbers = { 10, 20, 30, 1, 2, 33, -33, 44, 556, 54345, 3434, -1, 222, 333 };
+    // void Start()
+    // {
+    //     // 3434までしか表示されない
+    //     for (int i =0 ; i<11; i++)
+    //     {
+    //         Debug.Log(numbers[i]);
+    //     }
+    // }
+    
+    
+    // TODO:配列とfor文の組み合わせ3:配列の値の合計を調べる方法
+    // int sum = 0;
+    // int[] numbers = { 10, 20, 30, 1, 2, 33, -33, 44, 556, 54345, 3434, -1, 222, 333 };
+    // void Start()
+    // {
+    //     sum += numbers[0];
+    //     sum += numbers[1];
+    //     sum += numbers[2];
+    //     // ここをfor文で計算したい場合にどうするか？
+    // }
+    
+    
+    // TODO:List型の宣言方法について
+    // string nameList = { "aaa", "bbb", "ccc"};
+    // void Start()
+    // {
+    // }
+    
+    
+    // TODO:List型の値の取得と変更方法
+    // List<string> nameList = new List<string>{ "あああ", "いいい", "ううう"};
+    // void Start()
+    // {
+    //     // コンソールに0番目を表示したい
+    //     // 0番目の値を"えええ"に変更したい
+    //     // コンソールに0番目を表示したい
+    // }
+    
+    
+    // TODO:List型とfor文の組み合わせについて：値を全て表示
+    // List<string> nameList = new List<string>{ "かかか", "ききき", "くくく"};
+    // void Start()
+    // {
+    //     // for文を使って以下と同じログを表示したい
+    //     Debug.Log(nameList[0]);
+    //     Debug.Log(nameList[1]);
+    //     Debug.Log(nameList[2]);
+    // }
+    
+    
+    // TODO:List型の値の追加
+    // List<string> nameList = new List<string>{ "さささ", "ししし", "すすす"};
+    // void Start()
+    // {
+    //     // nameListに"せせせ"を追加したい：Addってのを使う
+    //     // 追加したあと、全ての値をログに表示して追加されたのを確認したい
+    // }
+    
+    
+    // TODO:List型の値の削除
+    // List<string> nameList = new List<string>{ "たたた", "ちちち", "つつつ"};
+    // void Start()
+    // {
+    //     // nameListの"ちちち"を消したい
     // }
 }
