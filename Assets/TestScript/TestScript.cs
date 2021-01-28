@@ -130,31 +130,69 @@ public class TestScript : MonoBehaviour
         
         
         // List型
-        List<int> numberList = new List<int>() {1, 2, 3, 4};
-        List<int> nList = new List<int>() {5,6,7,8};
-        List<string> nameList = new List<string>() {"aaa", "bbb", "ccc"};
-        Debug.Log(numberList[1]);
-        nList[0] = 10;
-        Debug.Log(nList[0]);
-        // 配列のLengthではなく、ListはCount
-        for (int i = 0; i < numberList.Count; i++)
-        {
-            Debug.Log(numberList[i]);
-        }
-        numberList.Add(5); // 5を追加
-        for (int i = 0; i < numberList.Count; i++)
-        {
-            Debug.Log(numberList[i]);
-        }
-        nList.RemoveAt(3); // 8が消える
-        for (int i = 0; i < nList.Count; i++)
-        {
-            Debug.Log(nList[i]);
-        }
-        nameList.Remove(nameList[2]); // 値を削除
-        for (int i = 0; i < nameList.Count; i++)
-        {
-            Debug.Log(nameList[i]);
-        }
+        // List<int> numberList = new List<int>() {1, 2, 3, 4};
+        // List<int> nList = new List<int>() {5,6,7,8};
+        // List<string> nameList = new List<string>() {"aaa", "bbb", "ccc"};
+        // Debug.Log(numberList[1]);
+        // nList[0] = 10;
+        // Debug.Log(nList[0]);
+        // // 配列のLengthではなく、ListはCount
+        // for (int i = 0; i < numberList.Count; i++)
+        // {
+        //     Debug.Log(numberList[i]);
+        // }
+        // numberList.Add(5); // 5を追加
+        // for (int i = 0; i < numberList.Count; i++)
+        // {
+        //     Debug.Log(numberList[i]);
+        // }
+        // nList.RemoveAt(3); // 8が消える
+        // for (int i = 0; i < nList.Count; i++)
+        // {
+        //     Debug.Log(nList[i]);
+        // }
+        // nameList.Remove(nameList[2]); // 値を削除
+        // for (int i = 0; i < nameList.Count; i++)
+        // {
+        //     Debug.Log(nameList[i]);
+        // }
+        
+        
+        // 関数の定義
+        // void SayName1()
+        // {
+        //     Debug.Log("あいうえお");
+        // }
+        // // 関数の呼び出し
+        // SayName1();
+        // // 引数あり関数
+        // void SayName2(string userName)
+        // {
+        //     Debug.Log("カキク:" + userName);
+        // }
+        // SayName2("ケコ"); // ケコが引数で、userNameに入る
+        // void SayName3(string userName, int age)
+        // {
+        //     Debug.Log(userName + "さん、" + age + "歳");
+        // }
+        // SayName3("太郎", 26);
+        
+        // 返り値ありの関数
+        // string型を返すので、string+関数名
+        // string userName = GetSayName1();
+        // string GetSayName1()
+        // {
+        //     return "次郎";
+        // }
+        // Debug.Log(userName);
+        // string userName2 = GetSayName2("三郎", 20);
+        // string GetSayName2(string name, int age)
+        // {
+        //     return "京都" + name + ":" + age + "歳";
+        // }
+        // Debug.Log(userName2);
+        
+        
+        
     }
 }

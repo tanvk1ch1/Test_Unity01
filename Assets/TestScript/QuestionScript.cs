@@ -207,4 +207,160 @@ public class QuestionScript : MonoBehaviour
     // {
     //     // nameListの"ちちち"を消したい
     // }
+    
+    
+    // 問3
+    // TODO:関数の定義の方法
+    // void Start()
+    // {
+    // }
+    // FirstFunc1
+    // {
+    // }
+    // FirstFunc2()
+    // {
+    // }
+    
+    
+    // TODO:関数の実行
+    // void Start()
+    // {
+    // }
+    // void Sample()
+    // {
+    //     Debug.Log("京都と表示");
+    // }
+    
+    
+    // TODO:変数のスコープ(範囲)：xとyの和を表示
+    // void Start()
+    // {
+    //     int x = 10;
+    //     int y = 2;
+    //     Sample();
+    // }
+    // void Sample()
+    // {
+    //     Debug.Log(x+y);
+    // }
+    
+    
+    // TODO:引数ありの関数：引数を使って一つの関数にする、Sample()内での処理は1行だけ
+    // int x = 10;
+    // int y = 2;
+    // int z = -3;
+    // void Start()
+    // {
+    //     Sample1();
+    //     Sample2();
+    //     Sample3();
+    // }
+    // void Sample1()
+    // {
+    //     Debug.Log(x + y);
+    // }
+    // void Sample2()
+    // {
+    //     Debug.Log(y + z);
+    // }
+    // void Sample3()
+    // {
+    //     Debug.Log(z + x);
+    // }
+    
+    
+    // TODO:引数の応用
+    //x=0,y>0 => 上
+    // x=0,y<0 => 下
+    // x>0,y=0 => 右
+    // x<0,y=0 => 左
+    // x=0,y=0 => 停止
+    // それ以外 => その他
+    // と表示させる関数を作る
+    // void Start()
+    // {
+    //     Move(0, 19);  // 上
+    //     Move(0, -1);  // 下
+    //     Move(20, 0);  // 右
+    //     Move(-20, 0); // 左
+    //     Move(0, 0);   // 停止
+    //     Move(-1, -1);   // その他
+    // }
+    // void Move(int x, int y)
+    // {
+    //     if (x == 0 && y > 0)
+    //     {
+    //         Debug.Log("上");
+    //     }
+    //     Debug.Log("停止");
+    // }
+    
+    
+    // TODO:返り値ありの関数：targetはhogeダメージを受けた！、の後に合計いくらダメージを受けたのかを表示する
+    // void Start()
+    // {
+    //     int sum = 0;
+    //     Damage("スライム", 100);
+    //     Damage("ドラキー", 20);
+    //     // sum = 100+20; //100とか20が変わるたびに修正しないといけないのでミスが起こりやすい
+    //     Debug.Log("合計" + sum + "のダメージ！");
+    // }
+    // void Damage(string target, int damage)
+    // {
+    //     Debug.Log(target + "は" + damage + "ダメージをうけた！");
+    // }
+    
+    
+    // TODO:引数あり関数と配列の組み合わせ：配列の中身を確認できる関数を作成する
+    // ヒント：関数内でforを1回使う
+    // int[] numbers1 = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+    // int[] numbers2 = { 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+    // void Start()
+    // {
+    //     for (int i = 0; i < numbers1.Length; i++)
+    //     {
+    //         Debug.Log(numbers1[i]);
+    //     }
+    //     for (int i = 0; i < numbers2.Length; i++)
+    //     {
+    //         Debug.Log(numbers2[i]);
+    //     }
+    // }
+    // void ShowArrayValueLog()
+    // {
+    // }
+    
+    
+    // TODO:平均の計算：2つの配列の平均を求める関数を作る
+    // int[] numbers1 = { 2, 4, 6};
+    // int[] numbers2 = { 1, 2, 3};
+    // void Start()
+    // {
+    //     Debug.Log(Mean(numbers1));
+    //     Debug.Log(Mean(numbers2));
+    // }
+    // int Mean(int[] numbers)
+    // {
+    //     int sum = 0;
+    //     int count = numbers.Length;
+    //     return sum / count; // 合計/個数
+    // }
+    
+    
+    // TODO:intとfloatの計算：1.5と表示させる
+    // int[] numbers = { 1, 1, 2, 2 };
+    // void Start()
+    // {
+    //     Debug.Log(Mean(numbers));
+    // }
+    // int Mean(int[] numbers)
+    // {
+    //     int sum = 0;
+    //     int count = numbers.Length;
+    //     for (int i=0; i<count;i++)
+    //     {
+    //         sum += numbers[i];
+    //     }
+    //     return sum / count; // 合計/個数
+    // }
 }
