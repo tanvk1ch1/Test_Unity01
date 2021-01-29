@@ -407,4 +407,32 @@ public class AnswerScript : MonoBehaviour
     //     }
     //     return sum / count; // 合計/個数
     // }
+    
+    
+    // TODO:QuestionClass1ScriptのAttackを呼ぶにはどうするか
+    // Question1ClassScriptをInspector上でアタッチする
+    // public QuestionClass1Script question1ClassScript;
+    // void Start()
+    // {
+    //     //ここでQuestionClass1ScriptのAttack関数を実行したい
+    //     question1ClassScript.Attack();
+    // }
+    
+    
+    // TODO:public関数：QuestionClass1ScriptのDamageを呼ぶにはどうするか
+    // public QuestionClass1Script question1ClassScript;
+    // void Start()
+    // {
+    //     question1ClassScript.Attack();
+    //     question1ClassScript.Damage(10);
+    // }
+    
+    
+    // TODO:public関数：QuestionClass1Scriptのint hpを使うにはどうするか
+    // public QuestionClass1Script question1ClassScript;
+    // void Start()
+    // {
+    //     int hp = question1ClassScript.hp;
+    //     Debug.Log(hp);
+    // }
 }
