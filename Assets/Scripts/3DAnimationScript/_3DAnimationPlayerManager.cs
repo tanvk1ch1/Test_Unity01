@@ -31,9 +31,13 @@ using UnityEngine;
 
 // 　コードからAnimationを変更する
 // 　Animatorコンポーネントのついているオブジェクトに、スクリプトをアタッチする
-// 　
-// 　
-// 　
+
+
+// ・アニメーションの途中でメソッド実行する方法
+// 　AnimationClipのEventを活用する
+// 　Animationウィンドウから、「Attack01」を選択する
+// 　「Add Event」を選択し、所定の位置にEventのバーを移動させる
+// 　メソッドを作成し、EventのFunctionに呼びたいメソッドを登録する
 public class _3DAnimationPlayerManager : MonoBehaviour
 {
     private Animator _animator;
@@ -45,10 +49,10 @@ public class _3DAnimationPlayerManager : MonoBehaviour
     private void Update()
     {
         // Spaceキーが押されたら、AttackTriggerをオンにしたい
-        // if (Input.GetKeyDown(KeyCode.Space))
-        // {
-        //     _animator.SetTrigger("AttackTrigger");
-        // }
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            _animator.SetTrigger("AttackTrigger");
+        }
         // 歩く場合
         if (Input.GetKeyDown(KeyCode.M))
         {
@@ -61,5 +65,10 @@ public class _3DAnimationPlayerManager : MonoBehaviour
             // 以下はboolでParameter設定した場合に使う
             // _animator.SetBool();
         }
+    }
+    
+    public void HitLog()
+    {
+        Debug.Log("Hit!");
     }
 }
